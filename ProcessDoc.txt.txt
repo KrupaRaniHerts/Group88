@@ -1,0 +1,17 @@
+Group ID -- A88
+DataSet ID -- DS137
+CSV file -- skoda.csv
+
+Data Variables -- model, year, price, transmission, mileage, fuelType, tax, mpg, engineSize
+
+Research Question -- what factors significantly influence the resale price of the used skoda cars?
+
+Dependent Variable -- Resale Price
+Independent Variable -- can be model, year, price, transmission, mileage, fuelType, tax, mpg
+thinking logically the key factors to look at for a used car would be year, mileage. 
+
+Correlation Analysis
+Is there a correlation between the year of the car make and resale price?
+Is there a correlation between the mileage and resale price?
+
+Write Rcode 
