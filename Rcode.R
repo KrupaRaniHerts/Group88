@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 skoda_data<-read.csv("skoda.csv")
 
 
@@ -15,11 +15,3 @@ abline(lm(skoda_data$price ~ skoda_data$mileage), col = "blue")
 
 
 
-
-
-
-=======
-skoda_data <- read.csv("skoda.csv")
-
-hist(skoda_data$price)
->>>>>>> dd4a0c8f841e0214d776a92f33f5ee9b7d539686
