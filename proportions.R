@@ -20,3 +20,6 @@ barplot(Percentages3,
         legend.text = c("Petrol", "Diesel"),
         args.legend = list(x = "topright"))
 
+
+
+
