@@ -1,4 +1,5 @@
 skoda_data<-read.csv("skoda.csv")
+head(skoda_data,2)
 
 sd4 <- subset(skoda_data, 
               (transmission == "Automatic" | transmission == "Manual") & 
@@ -11,7 +12,6 @@ chisq.test(pt3)
 Percentages3<-prop.table(pt3, margin = 2) * 100
 
 barplot(Percentages3, 
-        beside = TRUE, 
         col = c("blue", "pink"), 
         xlab = "Transmission Type", 
         ylab = "Percentage", 
