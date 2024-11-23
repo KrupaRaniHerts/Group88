@@ -5,9 +5,13 @@ DataSet ID -- DS137
 CSV file -- skoda.csv
 
 Data Variables -- model, year, price, transmission, mileage, fuelType, tax, mpg, engineSize
--------------------------------------------------------------------------------------------------------------------------------
-Our Initial Analysis
 
+
+
+
+
+Our Initial Analysis
+-----------------------------------------------------------------------------------------------
 Research Question -- what factors significantly influence the resale price of the used skoda cars?
 
 Dependent Variable -- Resale Price
@@ -19,10 +23,13 @@ Is there a correlation between the year of the car make and resale price?
 Is there a correlation between the mileage and resale price?
 
 Write Rcode 
------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 
 Changed Analysis After Receiving Feedback
-
+----------------------------------------------------------------------------------------------------------------------
 Research  -- Are the proportions of fuelType (Petrol vs. Diesel) among Manual cars same as those among Automatic cars?
 
 Dependent Variable: Fuel Type (Petrol Vs Diesel)
