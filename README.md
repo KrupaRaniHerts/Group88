@@ -33,11 +33,15 @@ Changed Analysis After Receiving Feedback
 Research  -- Are the proportions of fuelType (Petrol vs. Diesel) among Manual cars same as those among Automatic cars?
 
 Dependent Variable: Fuel Type (Petrol Vs Diesel)
+
 Dependent Variable Data Type: Nominal
+
 Independent Variable: Transmission Type (Manual vs Automatic)
+
 Independent Variable Data Type: Nominal
 
 Null Hypothesis: The proportions of Petrol vs. Diesel cars are the same for both Manual and Automatic transmission types.
+
 Alternative Hypothesis: The proportions of Petrol vs. Diesel cars differ between Manual and Automatic transmission types.
 
 Methodology -- Loaded the data to Rstudio, Created RScript and ran the Chisq() test comparing the proportions providing the statistical outcome
@@ -68,21 +72,29 @@ barplot(Percentages3,
         args.legend = list(x = "topright"))
 
 outcome:
+
 Table of Car Counts
-         Automatic Manual
-  Diesel       487   1127
-  Petrol       609   2624
+         
+	Automatic Manual
+  
+Diesel       487   1127
+  
+Petrol       609   2624
 
 Percentages: 
-Automatic   Manual
-  Diesel  44.43431 30.04532
-  Petrol  55.56569 69.95468
+
+	Automatic   Manual
+  
+Diesel  44.43431 30.04532
+  
+Petrol  55.56569 69.95468
 
 Chisq test output
 
 Pearson's Chi-squared test with Yates' continuity correction
 
 data:  pt3
+
 X-squared = 78.418, df = 1, p-value < 2.2e-16
 
 By the p-value we reject null hypothesis as the proportions are not same for both transmission types and they differe markedly.
